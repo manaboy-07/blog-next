@@ -1,0 +1,37 @@
+You can create new pages in the app by adding a folder component
+Link uses href
+you can use a loading state, in the folder just name loading.tsx
+folders can also have error, error.tsx and go to docs and copy
+Next js applies it automatically
+read the docs
+
+NextJS 13.1 (reference dave gray on yt): 
+You can do smth like page.module.css, 
+also create automatic loading states,
+when you create a folder like about folder that contains the about pages
+
+NextJs 13.2 replace head.tsx
+Usage of metadata
+
+
+Dynamic Routing:
+Create a route you want e.g [name]
+
+MetaData - automaticlly changes title of page
+
+DATA-FETCHING:
+you can use server components
+fetch data in parallel
+loading ui, streaming an suspense
+
+
+
+
+USEFUL NextJS thing for applications NextJs applies automatically:
+1. loading with loading.tsx
+2. error boundary error.tsx copy code from docs
+3. provide built in not-found for error pages by convention of  not-found.tsx
+
+
+Google SSG, SSR and ISR
+SSG if you know the parameter in advanced
