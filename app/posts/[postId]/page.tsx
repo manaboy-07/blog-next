@@ -2,6 +2,7 @@
 
 import getFormattedDate from "@/lib/getFormattedDate";
 import Link from 'next/link'
+
 import { getPostData, getSortedPostsData } from "@/lib/posts";
 import { notFound } from "next/navigation";
 //generate ssg
@@ -13,7 +14,7 @@ export function generateStaticParams(){
     }))
 }
 
-export function generateMetaData({ params }: { params: { postId: 
+export function generateMetadata({ params }: { params: { postId: 
     string } }) {
         //getting MetaData
     const posts = getSortedPostsData(); //deduped
