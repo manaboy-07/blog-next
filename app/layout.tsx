@@ -3,6 +3,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import MyProfilePic from "./components/MyProfilePic";
 import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,9 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      {/* whatever is in the layout appears in the whole page */}
       {/* Profile Pic, what ever is above the body here appears all over the page */}
       <body className='dark:bg-slate-800'>
         <Navbar />
+        <MyProfilePic />
         {children}
       </body>
     </html>
