@@ -35,3 +35,7 @@ USEFUL NextJS thing for applications NextJs applies automatically:
 
 Google SSG, SSR and ISR
 SSG if you know the parameter in advanced
+
+
+
+REVALIDATE REQUEST only works inside a pages directory, shd change abut now
